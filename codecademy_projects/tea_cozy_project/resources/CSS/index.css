@@ -1,0 +1,184 @@
+body {
+    background-color: black;
+}
+
+.label img {
+    justify-content: left;
+    padding: 10px 50px;
+    margin: 10px;
+    opacity: 0.9;
+    border-bottom: 1px solid seashell;
+}
+
+.background img {
+    padding: 20px 70px;
+    position: relative;
+    left: 50px;
+}
+
+.label a {
+    text-decoration: underline;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 25px;
+    color: seashell;
+    opacity: 0.9;
+    display: inline;
+    position: relative;
+    bottom: 50px;
+    left: 600px;
+    padding: 20px;
+}
+
+.background 
+h2,
+h4 {
+    font-family: Helvetica;
+     font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    position: relative;
+    bottom: 500px;
+    background-color: black;
+    padding: 25px;
+}
+
+
+.tea p{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    bottom: 1000px;
+}
+
+.tea img {
+    padding: 20px 30px;
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}
+
+figcaption,
+figure {
+    color: seashell;
+    font-family: Helvetica;
+    font-size: 20px;
+    position: relative;
+    left: 95px;
+    flex-direction: row;
+}
+
+.myrtil {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-items: center;
+}
+
+.spiced {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-items: left;
+}
+
+.donut {
+    width: 300px;
+    height: 200px;
+}
+
+
+.berry {
+    width: 300px;
+    height: 200px;
+}
+
+
+.bedford {
+    width: 300px;
+    height: 200px;
+}
+
+.location h2 {
+    font-size: 25px;
+    font-family: Helvetica;
+    color: seashell;
+    display: flex;
+    justify-content: center;
+    bottom: 5px;
+    opacity: 0.9;
+}
+
+.Downtown {
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    padding: 100px 200px;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    bottom: 620px
+}
+
+.locationbackground {
+    padding: 20px 70px;
+    position: relative;
+    left: 50px;
+}
+
+.second {
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 850px
+}
+
+.oakdale {
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+    padding: 100px 200px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    bottom: 1070px
+}
+
+h2 {
+    color: seashell;
+    font-family: Helvetica;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 800px;
+}
+
+
+h5 {
+    color: seashell;
+    font-family: Helvetica;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 820px;
+    font-size: 22px;
+    text-align: center;
+}
+
+h3 {
+    font-family: Helvetica;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    color: seashell;
+    bottom: 765px;
+    font-size: 22px;
+}
