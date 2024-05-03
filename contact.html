@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function validateForm()
+        {
+            var fname = document.getElementById('fname');
+            var lname = document.getElementById('lname');
+            var uemail = document.getElementById('uemail');
+
+            if (fname.value == "")
+            {
+                fname.style.backgroundColor = "Red"
+                window.alert("Please enter your first name!");
+                return false;
+            }
+
+            if (lname.value == "")
+            {
+                lname.style.backgroundColor = "Red"
+                window.alert("Please enter your last name!");
+                return false;
+            }
+
+            if (uemail.value == "")
+            {
+                uemail.style.backgroundColor = "Red"
+                window.alert("Please enter a valid email!");
+                return false;
+            }
+            else
+            {
+                let pattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+                let result = pattern.test(email.value);
+                if (result == false)
+                {
+                    window.alert("Please enter valid email address")
+                    return false;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <nav class="crumbs">
+        <ol>
+            <li class="crumb"><a href="Index.html">Home</a></li>
+            <li class="crumb"><a href="education.html">Education</a></li>
+            <li class="crumb"><a href="skills.html">Skills</a></li>
+            <li class="crumb"><a href="portfolio.html">Portfolio</a></li>
+        </ol>
+    </nav>
+    <h1 id="heading">Contact Form</h1>
+    <audio src="Recording.m4a" controls>Thank You</audio>
+    <form onsubmit="return validateForm();" action="signup.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="uemail">User Email:</label><br>
+        <input type="text" id="uemail" name="uemail"><br>
+        <input type="submit" value="Submit" >
+    </form>
+    <img src="imgaes/the_end.jpeg" alt="The End" id="img4">
+    <a href="Index.html">Home Page:</a>
+</body>
+<footer>
+    Contact Form Page: Published 2/24/2024 <br>
+    <em>By Calandra Miller</em>
+</footer>
+</html>

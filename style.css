@@ -1,0 +1,162 @@
+body {
+    background-color: white;
+}
+
+
+#heading,
+#heading2 {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    text-align:center;
+    background-color: #753D5C;
+    border-style: ridge;
+    border-color: #753D5C;
+    border-width: 5px;
+    margin: 10px -10px;
+    padding: 10px;
+    position:relative; top: 0;
+}
+
+img {
+    border-radius: 50%;
+    border-width: 5px;
+    border-style:ridge;
+    border-color: #753D5C;
+    margin-left: 30px;
+}
+
+#img {
+    width:fit-content;
+    border-radius: 0;
+    border-style: hidden;
+    margin: 10px 250px;
+}
+
+#img2 {
+    border-radius: 0;
+    border-style: hidden;
+    float: right;
+    margin: -460px 355px 25px;
+    width: 500px;
+    height: 325px;
+}
+
+#img3{
+    border-radius: 0;
+    border-style: hidden;
+    margin: auto;
+    float: right;
+}
+
+#img4{
+    border-radius: 0;
+    border-style: hidden;
+    margin: -300px 475px 25px;;
+    width: 600px;
+
+}
+
+#devry {
+    border-radius: 0;
+    border-style: hidden;
+    margin-left: 250px;
+    margin-top: -25px;
+}
+
+#projects{
+    font-weight: 700;
+    border-bottom: 1px solid  #753D5C;
+    width: fit-content;
+}
+
+.skills img {
+   border-radius: 0;
+   border-style: none;
+   width: 500px;
+   margin-left: 950px;
+   margin-top: -300px;
+}
+
+.skills h2 {
+    font-weight: 700;
+    border-bottom: 1px solid  #753D5C;
+    width: fit-content;
+}
+
+form{
+    border: #753D5C;
+    border-style: ridge;
+    width: fit-content;
+    margin: 10px;
+    padding: 10px;
+    color:#753D5C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+video {
+    width: 500px;
+    height: 200px;
+    align-content: center;
+    padding-left: 10%;
+    margin-bottom: 40px;
+}
+
+p, h2, li, a {
+    color:#753D5C;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav {
+    border-bottom: 1px solid #753D5C;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.crumb {
+    display: inline-block;
+}
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+    content: '>';
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+}
+
+.school:hover{
+    color: #753D5C;
+    
+}
+
+a:hover {
+    color: #753D5C;
+    background-color: black;
+}
+
+#skills {
+    float:inline-start;
+    margin-top: 200px;
+}
+
+
+footer {
+    background-color: #753D5C;
+    padding: 10px;
+    margin: 50px -10px;
+    font-size: 20px;
+    color: white;
+    border-style: ridge;
+    border-color: #753D5C;
+    border-width: 5px;
+}
+
